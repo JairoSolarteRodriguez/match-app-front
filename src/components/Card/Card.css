@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.papa{
+    border: 1px solid var(--dark-purple);
+    background-color: aliceblue;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* div:first-child{
+    align-items: center;
+} */
+
+.hijo{
+    height: 280px;
+    background-image:url('./resources/Captura.PNG');
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
