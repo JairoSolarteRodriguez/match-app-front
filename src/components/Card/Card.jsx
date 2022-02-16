@@ -7,7 +7,7 @@ const Card = () => {
       <div class='hijo'>
          {/* <img src={imagenprueba}  alt=""  /> */}
          <div class="xx">
-         <p>paola (30)</p>
+         <p>Paola</p>
          <p>Bogota</p>
          </div>
          
