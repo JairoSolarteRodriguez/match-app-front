@@ -1,11 +1,14 @@
 import React from 'react'
-import Card from '../../components/Card/Card'
+import ListOfCards from '../../components/ListOfCards/ListOfCards'
 import './Home.css'
 
 const Home = () => {
-  return <main className='container'>
-    <Card/>
-  </main>
+  return <>
+    <h2 className='subtitle'>Personas con tiempo libre</h2>
+    <main className='container'>
+      <ListOfCards/>
+    </main>
+  </>
 }
 
 export default Home

@@ -1,0 +1,10 @@
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.subtitle{
+  text-align: center;
+  color: rgb(146, 146, 146);
+}

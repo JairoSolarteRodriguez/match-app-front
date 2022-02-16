@@ -4,12 +4,13 @@
 }
 
 .papa{
-    border: 1px solid var(--dark-purple);
     background-color: aliceblue;
     width: 250px;
     display: flex;
     flex-direction: column;
     font-family: var(--font);
+    margin: 1rem;
+    cursor: pointer;
 }
 
 /* div:first-child{
@@ -27,3 +28,6 @@
     font-weight: bold;
 }
 
+.papa p{
+    padding: 0.5rem;
+}

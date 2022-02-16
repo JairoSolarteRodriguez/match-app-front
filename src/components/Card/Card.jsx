@@ -3,10 +3,10 @@ import './Card.css'
 
 const Card = () => {
   return (
-    <div class='papa'>
-      <div class='hijo'>
+    <div className='papa'>
+      <div className='hijo'>
          {/* <img src={imagenprueba}  alt=""  /> */}
-         <div class="xx">
+         <div className="xx">
          <p>Paola</p>
          <p>Bogota</p>
          </div>
