@@ -19,7 +19,7 @@
 
 .hijo{
     height: 280px;
-    background-image:url('./resources/Captura.PNG');
+    /* background-image:url('./resources/Captura.PNG'); */
     color: white;
     display: flex;
     align-items: flex-end;
