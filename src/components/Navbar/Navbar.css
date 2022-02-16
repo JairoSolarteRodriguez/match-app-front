@@ -1,0 +1,51 @@
+.logo{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
+  color: #FFF;
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background: var(--dark-purple);
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header div{
+  display: flex;
+  width: 95%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.loggin{
+  background: var(--light-purple);
+  border-radius: 4rem;
+  padding: 1rem 2rem;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+}
+
+ul li{
+  padding: 1rem;
+  cursor: pointer;
+  color: #FFF;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+ul li a{
+  color: #FFF;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
