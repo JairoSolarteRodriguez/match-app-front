@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <header>
       <div>
-        <h1 className='logo'>Match-Up</h1>
+        <Link to='/'><h1 className='logo'>Match-Up</h1></Link>
         <ul>
           <li><Link to='/'>Inicio</Link></li>
           <li><Link to='/about'>Acerca de</Link></li>
