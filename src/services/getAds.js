@@ -1,6 +1,6 @@
-const APIURL = 'http://localhost:8080/ads'
+export const getData = async(id = null) => {
+  const APIURL = id ? `http://localhost:8080/ads/${id}` : `http://localhost:8080/ads/`
 
-export const getData = async() => {
   // Fetching data...
   const res = await fetch(APIURL);
   const response = await res.json();

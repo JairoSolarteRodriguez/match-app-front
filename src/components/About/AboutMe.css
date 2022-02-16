@@ -1,0 +1,8 @@
+.about-me{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 90%;
+}
