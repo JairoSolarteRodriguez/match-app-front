@@ -1,17 +1,21 @@
  .c-testimonial{
-     align-items: center;
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: center;
-     height: 46vh;
+  background-color: #e7e7e7;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
 } 
 
 .c-testimonial_tittle{
-    font-size:  clamp(0.9rem, 1rem, 2rem); 
-    /* position: absolute; */
-    text-align: center;
-    align-items:center;
-    justify-content: center;
+  margin-top: 2rem;
+  font-size:  clamp(0.9rem, 1rem, 2rem);     
+}
+
+.c-testimonial__content-text{
+  width: 100%;
+  padding-bottom: 3rem;
+  display: flex;
+  margin-top:1rem;
 }
 
  .c-testimonial_div{
@@ -39,4 +43,21 @@
     color: #ffa726;
     font-size:  clamp(1rem, 1.5rem, 2rem); 
     text-align: center;
+}
+
+
+@media (min-width: 320px) {
+  
+  .c-testimonial__content-text{
+    flex-direction: column;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .c-testimonial__content-text{
+    flex-direction:row;
+  }
+
 }

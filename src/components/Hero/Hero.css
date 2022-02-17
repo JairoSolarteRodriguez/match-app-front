@@ -38,10 +38,34 @@
 }
 
 .c-hero__img{
-    height: 90%;
+    height: 400px;
     width: 50%;
     z-index: 1;
     margin: 8rem 3rem 3rem;
     margin-right: 8rem;
     position:relative;
 }
+
+/* @media (min-width: 320px) {
+  
+    .c-hero{
+        flex-direction: column-reverse;
+    }
+
+    .c-hero__title{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .c-hero__img{
+        width: 320px;
+        height: 300px;
+    }
+    
+
+  } */
+  
+  /* @media (min-width: 768px) {
+  
+    
+  
+  } */

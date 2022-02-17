@@ -36,7 +36,7 @@ header div{
   background: var(--light-purple);
   border-radius: 4rem;
   padding: 1rem 2rem;
-  /* font-size:  clamp(0.2rem, 5vw, 1.2rem);  */
+  font-size:  clamp(0.2rem, 5vw, 1.2rem); 
 }
 
 ul{
@@ -50,7 +50,7 @@ ul li{
   color: #FFF;
   font-family: 'Dancing Script', cursive;
   font-family: 'Poppins', sans-serif;
-  font-size:  clamp(0.2rem, 2vw, 1.2rem); 
+  
   text-decoration: none;
 }
 
@@ -61,3 +61,25 @@ ul li a{
   font-size: 1.3rem;
   text-decoration: none;
 }
+
+
+/* @media (min-width: 320px) {
+  
+  header{
+    width: 100%;
+  }
+  /* ul li a{
+    font-size: clamp(0.3rem, 0.9rem, 1rem);
+  } 
+  div{
+    height: 500px
+  }
+
+
+}
+
+@media (min-width: 768px) {
+
+  
+
+}*/
