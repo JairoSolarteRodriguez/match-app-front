@@ -6,9 +6,9 @@ MatchUp is an application to connect people looking to share time and socialize,
 
 ## How it looks
 ![MatchUp NavBar and Hero Components]
-
+(https://github.com/JairoSolarteRodriguez/match-app-front/blob/footer/src/assets/hero.png?raw=true)
 ![MatchUp Cards]
-(https://github.com/JairoSolarteRodriguez/match-app-front/blob/footer/src/assets/Cards.png)
+(https://github.com/JairoSolarteRodriguez/match-app-front/blob/footer/src/assets/Cards.png?raw=true)
 
 
 ## GitHub Repositories 🚀
