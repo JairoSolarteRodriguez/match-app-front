@@ -3,7 +3,8 @@
   color: #FFF;
   padding: 0;
   margin: 0;
-  font-size: 3.5rem;
+ /*  font-size: 3.5rem; */
+ font-size:  clamp(2rem, 5vw, 5rem); 
 }
 
 a{
@@ -12,7 +13,7 @@ a{
 
 header{
   background: var(--dark-purple);
-  height: 120px;
+  height: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,6 +30,7 @@ header div{
   background: var(--light-purple);
   border-radius: 4rem;
   padding: 1rem 2rem;
+  /* font-size:  clamp(0.2rem, 5vw, 1.2rem);  */
 }
 
 ul{
@@ -42,7 +44,7 @@ ul li{
   color: #FFF;
   font-family: 'Dancing Script', cursive;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.3rem;
+  font-size:  clamp(0.2rem, 2vw, 1.2rem); 
   text-decoration: none;
 }
 
