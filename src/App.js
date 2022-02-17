@@ -1,8 +1,10 @@
+
 import './App.css';
 import { Route, Routes } from 'react-router-dom'
 
 import Home from './views/Home/Home'
-import Navbar from './components/Navbar/Navbar'
+import Navbar from './components/Navbar/Navbar' // llamado al componente.
+import Testimonial from './components/TestimonialSection/Testimonial'
 import About from './views/About/About'
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Route exact path='/home/:id' element={<Home/>}/>
       <Route exact path='/about' element={<About/>}/>
     </Routes>
+    <Testimonial/>
+    
   </>
 }
 
