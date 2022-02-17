@@ -6,11 +6,19 @@ const ListOfCards = () => {
 
   console.log(data)
   return <>
-    {
-      data.map(({id, name, image, location, description, time}) =>(
-        <Card key={id} name={name} image={image} location={location} description={description} time={time}/>
-      ))
-    }
+    <div>
+      <form>
+        <input type="search" placeholder="Buscar"/>
+        <button>Search</button>
+      </form>
+    </div>
+    <div className="container">
+      {
+        data.map(({id, name, image, location, description, time}) =>(
+          <Card key={id} name={name} image={image} location={location} description={description} time={time}/>
+        ))
+      }
+    </div>
   </>
 }
 
