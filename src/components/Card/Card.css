@@ -95,3 +95,7 @@
 .btn-icon:hover {
     background-color: lightgray;
 }
+
+.papa a a:visited {
+    color: blue;
+}

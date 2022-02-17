@@ -1,0 +1,43 @@
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    box-shadow: 0 0 6px -3px #000000;
+
+}
+
+.form-section >  input, textarea {
+    border-radius: 20px;
+    width: 80%;
+    height: 42px;
+    padding-left: 10px;
+    background-color: #dddddd;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+textarea {
+    max-height: 93px;
+    max-width: 80%;
+    resize: none;
+}
+
+.form-section > .btn {
+    width: 80px;
+    height: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 1rem;
+    border: none;
+    background-color: #7D53DE;
+    color: white;
+}
+
+.form-section button:hover {
+    background-color: #6846b6;
+}
