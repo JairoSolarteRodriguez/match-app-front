@@ -5,9 +5,6 @@
 }
 
 form{
-    position: relative;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%,-50%);
     transition: all 1s;
     width: 50px;
@@ -15,7 +12,6 @@ form{
     background: white;
     box-sizing: border-box;
     border-radius: 25px;
-    border: 4px solid white;
     padding: 5px;
 }
 
@@ -53,8 +49,11 @@ input{
     background: white;
     border: 1px solid;
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 form:hover{
@@ -70,4 +69,58 @@ form:hover input{
 form:hover .fa{
     background: #07051a;
     color: white;
+}
+
+.section-location{
+    width: 100%;
+    background-color: #470093;
+    color: white;
+
+}
+.unosec{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.ppp{
+    display: flex;
+}
+
+.pp{
+    margin-top: 2px;
+}
+
+.espacio{
+    width: 20px;
+}
+
+.form-section{
+    padding: 10px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+input{
+    border: none;
+    padding: 7px;
+}
+
+button{
+    padding: 7px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+select{
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+.imagint{
+    width: 200px;
 }

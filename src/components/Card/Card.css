@@ -19,11 +19,9 @@
 }
 
 .xx{
-    display: flex;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.336);
-
 }
 
 .hijo{
@@ -39,46 +37,28 @@
     background-size: cover;
 }
 
-.papa p {
+.name {
     max-height: 8rem;
     padding: 0.5rem;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    margin-top: 0;
+}
+
+.name-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-card p, .name-card i, .location{
+    padding: 10px;
 }
 
 .description{
-    text-overflow: ellipsis;
-    font-style: italic;
-    font-size: 15px;
+    height: 7rem;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 }
-
-.data-info {
-    display: flex;
-    flex-direction: column;
-    margin-left: 0.5rem;
-}
-
-a {
-    color: blue;
-}
-
-p.name {
-    padding: 0;
-    margin-left: 1rem;
-    margin-top: 10px;
-    font-size: 22px;
-}
- i.check {
-     margin-top: 1rem;
-     margin-left: 1rem;
- }
-
-p.location {
-    position: absolute;
-    margin: 0;
-    bottom: 0;
-    left: 0;
-}
-

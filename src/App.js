@@ -14,7 +14,7 @@ function App() {
     <Routes>
       <Route exact path='/' element={<Home/>}/>
       <Route exact path='/home' element={<Home/>}/>
-      <Route exact path='/home/:id' element={<Home/>}/>
+      <Route exact path='/home/:idUrl' element={<Home/>}/>
       <Route exact path='/about' element={<About/>}/>
     </Routes>
     <Testimonial/>
