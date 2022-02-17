@@ -30,8 +30,7 @@ const ListOfCards = () => {
   
   let result = []
   if(search !== ''){
-    result = ads.filter(ad => ad.name.toLowerCase().includes(search) || ad.location.toLowerCase().includes(search) || ad.time.toLowerCase().includes(search))
-    console.log(result)
+    result = ads.filter(ad => ad.name.toLowerCase().includes(search) || ad.location.toLowerCase().includes(search) || ad.time.toLowerCase().includes(search) || ad.description.toLowerCase().includes(search))
   }else{
     result = ads
   }

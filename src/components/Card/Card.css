@@ -41,3 +41,7 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
 }
+
+.description{
+    text-overflow: ellipsis;
+}

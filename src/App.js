@@ -6,6 +6,7 @@ import Home from './views/Home/Home'
 import Navbar from './components/Navbar/Navbar' // llamado al componente.
 import Testimonial from './components/TestimonialSection/Testimonial'
 import About from './views/About/About'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return <>
@@ -17,6 +18,7 @@ function App() {
       <Route exact path='/about' element={<About/>}/>
     </Routes>
     <Testimonial/>
+    <Footer/>
     
   </>
 }

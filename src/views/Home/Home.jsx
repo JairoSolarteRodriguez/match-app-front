@@ -7,7 +7,7 @@ const Home = () => {
   return <>
     <Hero />
     <h2 className='subtitle'>Personas con tiempo libre</h2>
-    <ListOfCards/>
+    <ListOfCards />
   </>
 }
 
