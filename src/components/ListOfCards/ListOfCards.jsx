@@ -49,9 +49,9 @@ const ListOfCards = () => {
     <div className="container">
       {
         result.length === 0 ? <p>Aún no hay datos que coincidan</p> : 
-        result.map(({id, name, image, location, description, time}) =>(
+        result.map(({id, name, image, location, description, time, days, verified}) =>(
           <Link to={`/home/${id}`} key={id}>
-            <Card id={id} name={name} image={image} location={location} description={description} time={time}/>
+            <Card id={id} name={name} image={image} location={location} description={description} time={time} days={days} verified={verified}/>
           </Link>
         ))
       }
