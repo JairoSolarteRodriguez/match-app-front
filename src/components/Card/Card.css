@@ -3,6 +3,10 @@
     font-family: var(--font);
 }
 
+.description{
+    -webkit-line-clamp: 4;
+}
+
 .papa{
     background-color: aliceblue;
     width: 250px;

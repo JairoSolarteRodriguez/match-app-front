@@ -35,6 +35,8 @@ const ListOfCards = () => {
     result = ads
   }
 
+  console.log(id)
+
   return <>
     <div className="search-box">
       <form onMouseEnter={() => setHideSearchBtn(true)} onMouseLeave={() => setHideSearchBtn(false)} onSubmit={handleSubmit}>
@@ -50,7 +52,7 @@ const ListOfCards = () => {
         result.length === 0 ? <p>Aún no hay datos que coincidan</p> : 
         result.map(({id, name, image, location, description, time, days, verified}) =>(
           <Link to={`/home/${id}`} key={id}>
-            <Card id={id} name={name} image={image} location={location} description={description} time={time} days={days} verified={verified}/>
+            <Card id={id} name={name} image={image} location={location} description={description} time={time} days={days} verified={verified} detail={id === undefined ? true : false}/>
           </Link>
         ))
       }
