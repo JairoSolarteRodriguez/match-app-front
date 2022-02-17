@@ -11,24 +11,33 @@
     font-family: var(--font);
     margin: 1rem;
     cursor: pointer;
+    max-height: 25rem;
 }
 
 .xx{
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.336);
+
 }
 
 .hijo{
-    height: 280px;
     color: white;
     display: flex;
     align-items: flex-end;
     font-family: var(--font);
     font-size: 1.2rem;
     font-weight: bold;
+    height: 15rem;
+    background-position: center;
+    background-size: cover;
 }
 
-.papa p{
+.papa p {
+    max-height: 8rem;
     padding: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
 }
