@@ -29,7 +29,7 @@ $ git clone https://github.com/SergiFuentes/match-app-back-end.git
 ## Authors 🤓
 
 - [@Candy Montero](https://github.com/candymd)
-- [@Stephanie Yuzuriha](https://github.com/StephanieYuzuriha)
+- [@Stephanie Marín](https://github.com/StephanieYuzuriha)
 - [@Jairo Solarte](https://github.com/JairoSolarteRodriguez)
 - [@Leandro](https://github.com/leagut)
 - [@Christian Ruiz](https://github.com/Lord-Mugen)
