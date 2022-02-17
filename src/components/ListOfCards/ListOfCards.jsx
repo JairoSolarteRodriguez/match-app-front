@@ -3,11 +3,13 @@ import { Link, useParams } from 'react-router-dom'
 import { useEffect, useState } from "react"
 import Card from '../Card/Card'
 import './ListOfCards.css'
+import '../SearchBar.css'
 
 const ListOfCards = () => {
   const [ads, setAds] = useState([])
   const [search, setSearch] = useState('')
   const { id } = useParams()
+  const [hideSearchBtn, setHideSearchBtn] = useState(false);
 
   useEffect(()=>{
     if(id !== undefined){
@@ -35,12 +37,15 @@ const ListOfCards = () => {
   }
 
   return <>
-    <div>
-      <form onSubmit={handleSubmit}>
-        <input type="search" placeholder="Ingrese su busqueda" onChange={handleChange}/>
-        <button>Search</button>
+    <div className="search-box">
+      <form onMouseEnter={() => setHideSearchBtn(true)} onMouseLeave={() => setHideSearchBtn(false)} onSubmit={handleSubmit}>
+      <input type="text" placeholder="Busca un anuncio!" onChange={handleChange} className="search-input"/>
+        <button style={{display: hideSearchBtn ? 'none' : 'block' }} type="submit" className="search-btn">
+          <i className="fas fa-search"/>
+        </button>
       </form>
     </div>
+
     <div className="container">
       {
         result.length === 0 ? <p>Aún no hay datos que coincidan</p> : 
