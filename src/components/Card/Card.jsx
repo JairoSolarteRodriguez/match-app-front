@@ -1,9 +1,11 @@
 import React, {useState} from "react"
 import "./Card.css"
+import {useLocation} from "react-router-dom";
 
 const Card = (props) => {
     const [isShown, setIsShown] = useState(false);
     const regex = new RegExp( "(?:^|(?:[.!?]\\s))(\\w+)");
+    const {pathname} = useLocation();
   const { name, location, description, image, time, days, verified, detail } = props
   return (
     <div className="papa" onMouseEnter={() => setIsShown(true)}

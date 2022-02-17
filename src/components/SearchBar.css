@@ -15,19 +15,18 @@ form{
     padding: 5px;
 }
 
-input{
+.form-section-search > input{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;;
-    height: 42.5px;
-    line-height: 30px;
+    width: 100%;
+    height: 43px;
     outline: 0;
     display: none;
     font-size: 1em;
     border-radius: 20px;
-    padding: 0 20px;
-    border: 0.5px solid;
+    border: none;
+    padding-left: 15px;
 }
 
 .fa{
@@ -96,19 +95,14 @@ form:hover .fa{
     width: 20px;
 }
 
-.form-section{
+.form-section-search{
     padding: 10px;
-
     background-color: rgb(255, 255, 255);
     border-radius: 100px;
 }
 
-input{
-    border: none;
-    padding: 7px;
-}
 
-button{
+.form-section-search > button{
     padding: 7px;
     border: none;
     background-color: rgb(255, 255, 255);
