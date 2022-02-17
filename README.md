@@ -5,10 +5,8 @@
 MatchUp is an application to connect people looking to share time and socialize, it is not a dating search engine... In MatchUp you will find a space to meet people with the same interests as you
 
 ## How it looks
-![MatchUp NavBar and Hero Components]
-(https://github.com/JairoSolarteRodriguez/match-app-front/blob/footer/src/assets/hero.png?raw=true)
-![MatchUp Cards]
-(https://github.com/JairoSolarteRodriguez/match-app-front/blob/footer/src/assets/Cards.png?raw=true)
+![MatchUp NavBar and Hero Components](https://github.com/JairoSolarteRodriguez/match-app-front/blob/footer/src/assets/hero.png)
+![MatchUp Cards](https://github.com/JairoSolarteRodriguez/match-app-front/blob/footer/src/assets/Cards.png)
 
 
 ## GitHub Repositories 🚀
