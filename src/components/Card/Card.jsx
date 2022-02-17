@@ -11,7 +11,7 @@ const Card = (props) => {
           <p>{location}</p>
         </div>   
       </div>
-      <p>{description}</p>
+      <p className='description'>{description}</p>
       <span>{time}</span>
     </div>
   )
