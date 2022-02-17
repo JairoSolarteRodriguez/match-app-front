@@ -7,8 +7,8 @@
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
-    padding-top: 7rem;
-    padding-left:2rem ;
+    padding: 10rem 7rem 7rem;
+    align-items: center;
 }
 .c-hero::after{
     left: 0;
@@ -23,6 +23,10 @@
 }
 
 .c-hero__title{
+    font-size: 6rem;
+    color: #fff;
+    max-width: 55%;
+    line-height: 6rem;
    
     font-size:  clamp(1rem, 4rem , 7rem); 
     color: #fff;
@@ -30,12 +34,14 @@
     line-height: 4rem;
     letter-spacing: 0.02rem;
     z-index: 1;
+    font-weight: bold;
 }
 
 .c-hero__img{
     height: 90%;
     width: 50%;
     z-index: 1;
+    margin: 8rem 3rem 3rem;
     margin-right: 8rem;
     position:relative;
 }

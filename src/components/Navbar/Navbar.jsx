@@ -16,7 +16,7 @@ const Navbar = () => {
         <ul>
           <li><Link to='/'>Inicio</Link></li>
           <li><Link to='/about'>Acerca de</Link></li>
-          <li onClick={handleLoggin} className='loggin'>{loggin ? 'Loggin' : 'Loggout'}</li>
+          <li onClick={handleLoggin} className='loggin'>{loggin ? 'Login' : 'Logout'}</li>
         </ul>
       </div>
     </header>
