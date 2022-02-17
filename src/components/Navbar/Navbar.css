@@ -36,7 +36,7 @@ header div{
   background: var(--light-purple);
   border-radius: 4rem;
   padding: 1rem 2rem;
-  /* font-size:  clamp(0.2rem, 5vw, 1.2rem);  */
+  font-size:  clamp(0.2rem, 5vw, 1.2rem); 
 }
 
 ul{
