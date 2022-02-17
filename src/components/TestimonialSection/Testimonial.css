@@ -1,0 +1,42 @@
+ .c-testimonial{
+     align-items: center;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     height: 46vh;
+} 
+
+.c-testimonial_tittle{
+    font-size:  clamp(0.9rem, 1rem, 2rem); 
+    /* position: absolute; */
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+}
+
+ .c-testimonial_div{
+     display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 200px;
+    max-width: 250px;
+    margin: auto;
+}
+
+.c-testimonial_div p{
+    text-align: center;
+    font-size:  clamp(0.7rem, 1.2vw, 2rem); 
+    font-family: 'Poppins', sans-serif;
+} 
+
+.c-testimonial_d{
+    display: flex;
+    flex-direction: column;
+    background-color: #e7e7e7;
+}
+
+.c-testimonial_icon{
+    color: #ffa726;
+    font-size:  clamp(1rem, 1.5rem, 2rem); 
+    text-align: center;
+}
