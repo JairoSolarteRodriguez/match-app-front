@@ -46,10 +46,13 @@
     position:relative;
 }
 
-/* @media (min-width: 320px) {
+@media (min-width: 320px) {
   
     .c-hero{
         flex-direction: column-reverse;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
     }
 
     .c-hero__title{
@@ -57,15 +60,11 @@
         line-height: 2rem;
     }
     .c-hero__img{
-        width: 320px;
-        height: 300px;
+        width: 150px;
+        height: auto;
+        position: static;
+        margin: 1rem;
     }
     
 
-  } */
-  
-  /* @media (min-width: 768px) {
-  
-    
-  
-  } */
+  }

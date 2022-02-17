@@ -62,24 +62,24 @@ ul li a{
   text-decoration: none;
 }
 
+@media only screen and (max-width: 600px) {
+  header div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-/* @media (min-width: 320px) {
-  
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+
   header{
+    height: auto;
     width: 100%;
+    position: static;
   }
-  /* ul li a{
-    font-size: clamp(0.3rem, 0.9rem, 1rem);
-  } 
-  div{
-    height: 500px
-  }
-
-
 }
-
-@media (min-width: 768px) {
-
-  
-
-}*/

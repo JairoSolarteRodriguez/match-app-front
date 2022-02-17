@@ -124,3 +124,14 @@ select{
 .imagint{
     width: 200px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    div .unosec h2{
+        text-align: center;
+    }
+
+    div .unosec img{
+        padding: 1rem;
+    }
+}
