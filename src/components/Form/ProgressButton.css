@@ -21,7 +21,7 @@
     display: inherit;
     transition: opacity 0.3s 0.1s;
     font-size: 2em;
-    font-weight: 100;
+    font-weight: 500;
 }
 .pb-container .pb-button svg {
     height: 54px;
