@@ -78,7 +78,7 @@ const ListOfCards = () => {
         ""
       )}
       {
-        pathname === '/home' ? 
+        pathname === '/home' || pathname === '/'? 
         <h2 className="subtitle">Personas con tiempo libre</h2> : ''
       }
 
