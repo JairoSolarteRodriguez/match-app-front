@@ -1,0 +1,8 @@
+.subtitle{
+  text-align: center;
+  color: var(--headings);
+}
+
+.card-form {
+  display: flex;
+}

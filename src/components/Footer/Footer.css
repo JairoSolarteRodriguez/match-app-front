@@ -1,0 +1,22 @@
+
+.footer{
+    background: var(--dark-purple);
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    grid-template-rows: 5;
+    justify-content: space-around;
+    color: #FFF;
+}
+
+i {
+    font-size: 1.5rem;
+}
+
+i:hover{
+    cursor: pointer;
+    color:rgba(0, 255, 255, 0.767);
+    transform: scale(1.5);
+
+ 
+}

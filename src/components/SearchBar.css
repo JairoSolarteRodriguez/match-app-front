@@ -1,0 +1,131 @@
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-right: 7rem;
+}
+
+form{
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.form-section-search > input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 43px;
+    outline: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+.search-btn {
+    background: white;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+form:hover{
+    width: 200px;
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+
+}
+
+form:hover .fa{
+    background: #07051a;
+    color: white;
+}
+
+.section-location{
+    width: 100%;
+    background-color: #470093;
+    color: white;
+
+}
+.unosec{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.ppp{
+    display: flex;
+}
+
+.pp{
+    margin-top: 2px;
+}
+
+.espacio{
+    width: 20px;
+}
+
+.form-section-search{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+
+.form-section-search > button{
+    padding: 7px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+select{
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+.imagint{
+    width: 200px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    div .unosec h2{
+        text-align: center;
+    }
+
+    div .unosec img{
+        padding: 1rem;
+    }
+}

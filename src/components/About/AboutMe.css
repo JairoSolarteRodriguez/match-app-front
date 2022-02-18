@@ -1,0 +1,25 @@
+.about-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.3rem;
+  padding: 7rem 0;
+  text-align: center;
+  height: 100vh;
+}
+
+.about-me-container{
+  width: 80%;
+  min-height: 23.7vh;
+  display: flex;
+  margin: 0 auto;
+  gap: 30px;
+  font-size: 32px;
+  text-align: justify-all;
+  align-items: center;
+}
+
+.about-me-img {
+  width: 50vw;
+  height: 70vh;
+}
