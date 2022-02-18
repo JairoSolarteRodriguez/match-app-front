@@ -26,7 +26,7 @@ const handleClick =  () => {
         <label htmlFor="email">Email</label>
         <input type="text" name="name" placeholder="Enter your email"/>
         <label htmlFor="message">Message</label>
-        <textarea maxLength="200" name="message" placeholder="'Send a message!" />
+        <textarea maxLength="200" name="message" placeholder="Send a message!" />
         <ProgressButton onClick={handleClick}>Send</ProgressButton>
     </div>
     )}

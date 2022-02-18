@@ -23,8 +23,10 @@
 
 textarea {
     max-height: 93px;
+    height: 90px;
     max-width: 80%;
     resize: none;
+    padding: 1rem;
 }
 
 .form-section > .btn {
