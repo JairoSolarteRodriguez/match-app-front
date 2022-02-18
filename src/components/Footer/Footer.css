@@ -6,7 +6,7 @@
     flex-direction: row;
     grid-template-rows: 5;
     justify-content: space-around;
-
+    color: #FFF;
 }
 
 i {

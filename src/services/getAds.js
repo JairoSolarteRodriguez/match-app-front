@@ -4,6 +4,6 @@ export const getData = async(id = null) => {
   // Fetching data...
   const res = await fetch(APIURL);
   const response = await res.json();
-
+  
   return response
 }
