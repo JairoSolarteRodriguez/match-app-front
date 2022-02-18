@@ -36,8 +36,9 @@ textarea {
     cursor: pointer;
     margin: 1rem;
     border: none;
-    background-color: #7D53DE;
+    background-color: #6846b6;
     color: white;
+    font-weight: bold;
 }
 
 .form-section button:hover {

@@ -1,7 +1,4 @@
 import './FormCSs.css'
-import Popup from "reactjs-popup";
-import Card from "../Card/Card";
-import {useState} from "react";
 import './ProgressButton.css'
 import ProgressButton from "react-progress-button";
 import {useNavigate} from "react-router-dom";
@@ -11,7 +8,7 @@ const Form = () => {
 
 const navigate = useNavigate();
 const handleClick =  () => {
-       const promise = new Promise(function(resolve, reject) {
+       const promise = new Promise(function(resolve) {
            setTimeout(resolve, 3000)
 
        })

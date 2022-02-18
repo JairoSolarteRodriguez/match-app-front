@@ -55,9 +55,9 @@ const ListOfCards = () => {
           </div>
           <h2 className='subtitle'>Personas con tiempo libre</h2>
         </div>
-        : '' }>
+        : '' }
 
-    <div className="container">
+    <div className="container" id="container">
       {
         result.length === 0 ? <p>Aún no hay datos que coincidan</p> :
             result.map(({id, name, image, location, description, time, days, verified}) =>(
