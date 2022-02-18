@@ -4,11 +4,11 @@ const Footer = () => {
   return (
     <footer>
       < div className="footer">
-      <i class="fa-solid fa-circle-user"></i>
-        <i class="fa-brands fa-twitter"></i>
+      <i className="fa-solid fa-circle-user"></i>
+        <i className="fa-brands fa-twitter"></i>
         © 2022 Copyright: MatchUp.Inc
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
+        <i className="fa-brands fa-facebook"></i>
+        <i className="fa-brands fa-instagram"></i>
       </div>
     </footer>
   );
